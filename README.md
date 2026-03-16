@@ -43,6 +43,26 @@ Calculates average delay between estimated and actual delivery per customer stat
 Uses DATEDIFF and filters to surface only states with above-average delays.
 Useful for identifying logistics performance gaps by region.
 
+### 6. Monthly Orders and Revenue Trend
+Aggregates total orders and revenue per month using DATE_FORMAT.
+Essential time-series query — the most common opening question in any analytics challenge.
+Demonstrates GROUP BY on a derived date column with dual aggregations.
+
+### 7. High Volume Low Satisfaction Categories
+Identifies product categories with high order volume but poor review scores.
+Uses HAVING with two conditions to surface categories needing product team attention.
+Directly applicable to e-commerce product strategy decisions.
+
+### 8. Seller Performance Scorecard
+Builds a complete seller quality profile — revenue, order count, 1-star and 5-star review counts, and 5-star percentage.
+Uses CASE WHEN inside SUM to pivot review scores into columns.
+Useful for marketplace seller ranking and quality management.
+
+### 9. Customers Above Average Spend
+Identifies high-value customers who spend more than the global average.
+Uses a CTE combined with a window function (AVG OVER) and a subquery filter.
+Most advanced query in this set — demonstrates multi-layer SQL thinking.
+
 ## Tools Used
 - MySQL 8.0
 - MySQL Workbench
