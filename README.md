@@ -75,6 +75,8 @@ Most advanced query in this set — demonstrates multi-layer SQL thinking.
 - CASE WHEN classification
 - Date functions (DATE_FORMAT, DATEDIFF)
 - Query filtering and ordering
+- CTE (Common Table Expressions) — WITH clause
+- Window functions — AVG OVER()
 
 ## Status
 Active — queries being expanded as SQL practice continues.
